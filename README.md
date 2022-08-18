@@ -7,7 +7,7 @@
       height="30"
     />
   </a>
-  <a href="https://jitpack.io/#Clientastisch/jairo/main-SNAPSHOT">
+  <a href="https://jitpack.io/#Clientastisch/fauth/main-SNAPSHOT">
     <img
       src="https://img.shields.io/badge/jitpack-main-%2321f21?style=for-the-badge"
       height="30"
@@ -41,7 +41,7 @@ I could lie and tell yout that this project has much use, but there are already 
 
 ## 🔗 Build Tools
 
-To use fauth as a dependency you might want to use a build tool like maven or gradle. An easy way for each and every project, is to use [jitpack](https://jitpack.io/#Clientastisch/jairo/main-SNAPSHOT) as it makes it easy to implement and use. The following example is for maven specific, as I personally don't use gradle that much.
+To use fauth as a dependency you might want to use a build tool like maven or gradle. An easy way for each and every project, is to use [jitpack](https://jitpack.io/#Clientastisch/fauth/main-SNAPSHOT) as it makes it easy to implement and use. The following example is for maven specific, as I personally don't use gradle that much.
 
 ### Maven
 
