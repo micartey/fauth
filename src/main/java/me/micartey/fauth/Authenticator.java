@@ -60,13 +60,4 @@ public class Authenticator {
             result = result * 10 + i % 10;
         return result;
     }
-
-
-    public static void main(String[] args) {
-        Authenticator auth = new Authenticator(6);
-
-        for (int i = 0; i < 10; i++) {
-            System.out.println(auth.generateNext(i));
-        }
-    }
 }
