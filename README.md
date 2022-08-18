@@ -72,13 +72,15 @@ There is really not much to know about fauth. This project consists of only one 
 
 ```java
 Authenticator authenticator = new Authenticator(
-    System.currentTimeMillis(), //seed
-    6                           //digits
+    System.currentTimeMillis(), // seed
+    6                           // digits
 );
 ```
 
 After instantiating the authenticator, you have to call only one method called `generate`
 
 ```java
-authenticator.generate(index);
+authenticator.generate(index); // index > 0
 ```
+
+You can specify which sequence should be calculated. However, keep in mind that index should be bigger that 0 and positiv. This index should be calculated by the elippsed time since creation.
