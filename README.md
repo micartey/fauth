@@ -13,7 +13,7 @@
       height="30"
     />
   </a>
-  <a href="https://clientastisch.github.io/jairo/docs" target="_blank">
+  <a href="https://clientastisch.github.io/fauth/docs" target="_blank">
     <img
       src="https://img.shields.io/badge/javadoc-reference-5272B4.svg?style=for-the-badge"
       height="30"
