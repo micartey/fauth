@@ -24,9 +24,9 @@
 <br />
 
 <p align="center">
-  <a href="#-introduction">Introduction</a> |
-  <a href="#-build-tools">Maven/Gradle</a> |
-  <a href="#-getting-started">Getting started</a>
+  <a href="#-introduction">Introduction</a> •
+  <a href="#-getting-started">Getting started</a> •
+  <a href="https://github.com/Clientastisch/fauth/issues">Troubleshooting</a>
 </p>
 
 ## 📚 Introduction
@@ -39,34 +39,7 @@ I could lie and tell yout that this project has much use, but there are already 
 
 *Should you use it?* **Absolutely not!**
 
-## 🔗 Build Tools
-
-To use fauth as a dependency you might want to use a build tool like maven or gradle. An easy way for each and every project, is to use [jitpack](https://jitpack.io/#Clientastisch/fauth/master-SNAPSHOT) as it makes it easy to implement and use. The following example is for maven specific, as I personally don't use gradle that much.
-
-### Maven
-
-First of all add a new repository to your `pom.xml` file to be able to download the dependecies provided by jitpack.
-
-```xml
-<repositories>
-    <repository>
-        <id>jitpack.io</id>
-        <url>https://jitpack.io</url>
-    </repository>
-</repositories>
-```
-
-Lastly, after adding the repository to all your other repositories, you have to add the following segment to your dependencies.
-
-```xml
-<dependency>
-    <groupId>com.github.Clientastisch</groupId>
-    <artifactId>fauth</artifactId>
-    <version>master-SNAPSHOT</version>
-</dependency>
-```
-
-## 🎈 Getting started
+## 📖 Getting started
 
 There is really not much to know about fauth. This project consists of only one class called `Authenticator`
 
@@ -83,4 +56,4 @@ After instantiating the authenticator, you have to call only one method called `
 authenticator.generate(index); // index > 0
 ```
 
-You can specify which sequence should be calculated. However, keep in mind that index should be bigger that 0 and positiv. This index should be calculated by the elippsed time since creation.
+You can specify which sequence should be calculated. However, keep in mind that index should be bigger that 0 and thus positiv. This index should be calculated by the elippsed time since creation in order to have a rolling key algorithm.
