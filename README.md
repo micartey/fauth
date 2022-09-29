@@ -7,13 +7,13 @@
       height="30"
     />
   </a>
-  <a href="https://jitpack.io/#Clientastisch/fauth/master-SNAPSHOT">
+  <a href="https://jitpack.io/#micartey/fauth/master-SNAPSHOT">
     <img
       src="https://img.shields.io/badge/jitpack-master-%2321f21?style=for-the-badge"
       height="30"
     />
   </a>
-  <a href="https://clientastisch.github.io/fauth/docs" target="_blank">
+  <a href="https://micartey.github.io/fauth/docs" target="_blank">
     <img
       src="https://img.shields.io/badge/javadoc-reference-5272B4.svg?style=for-the-badge"
       height="30"
@@ -26,7 +26,7 @@
 <p align="center">
   <a href="#-introduction">Introduction</a> •
   <a href="#-getting-started">Getting started</a> •
-  <a href="https://github.com/Clientastisch/fauth/issues">Troubleshooting</a>
+  <a href="https://github.com/micartey/fauth/issues">Troubleshooting</a>
 </p>
 
 ## 📚 Introduction
